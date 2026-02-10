@@ -19,3 +19,27 @@
   </style>
 </head>
 <body>
+
+  <div id="excerpt"></div>
+
+  <script>
+    const excerpts = [
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+    ];
+
+    const randomIndex = Math.floor(Math.random() * excerpts.length);
+    document.getElementById("excerpt").textContent = excerpts[randomIndex];
+  </script>
+
+</body>
+</html>

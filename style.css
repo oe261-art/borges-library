@@ -1,0 +1,8 @@
+#books.{
+    animation: pulse,3s, infinite ease-in-out
+}
+@keyframes pulse {
+    0% {
+        r:20
+    }
+}
