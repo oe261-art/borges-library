@@ -1,8 +1,16 @@
-#books.{
-    animation: pulse,3s, infinite ease-in-out
+body {
+  margin: 0;
+  height: 100vh;
+
+  background: linear-gradient(
+    to bottom,
+    #2f71c1,
+    #091a30
+  );
+}f
+body {
+    cursor: url('path_to_your_cursor_image.png'), auto;
 }
-@keyframes pulse {
-    0% {
-        r:20
-    }
+a:hover {
+    cursor: url('path_to_your_link_cursor.png'), pointer;
 }
