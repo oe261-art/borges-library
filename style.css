@@ -1,16 +1,10 @@
-body {
-  margin: 0;
-  height: 100vh;
-
-  background: linear-gradient(
-    to bottom,
-    #2f71c1,
-    #091a30
-  );
-}f
-body {
-    cursor: url('path_to_your_cursor_image.png'), auto;
+.image-container svg {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.2s;
 }
-a:hover {
-    cursor: url('path_to_your_link_cursor.png'), pointer;
+
+.image-container svg:hover {
+  transform: scale(1.05);
 }
